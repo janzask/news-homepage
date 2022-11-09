@@ -5,8 +5,8 @@
   }
 
 body {
-    max-width: 1110px;
-    margin: 0 auto;
+    max-width: 69.375em; /* 1110/16 */
+    margin: 0em auto;
     background: #FFFDFA;
     font-family: 'Inter', sans-serif;
 }
@@ -14,23 +14,23 @@ body {
 /*----HEADER----*/
 
 nav {
-    margin: 0;
+    margin: 0em;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 97px 0px 55.1px 0px;
+    margin: 6.0625em 0em 3.44375em 0em;
 }
 
 a {
     text-decoration: none;
     color: #5E607A;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    margin-left: 35px;
+    font-weight: 400; 
+    font-size: 0.9375em; 
+    line-height: 1.625em;
+    margin-left: 2.1875em;
 }
 
 a:hover,
@@ -46,7 +46,7 @@ main {
 }
 
 .main_images {
-    width: 730px;
+    width: 45.625em;
 }
 
 .main_section {
@@ -56,35 +56,36 @@ main {
 .main_section h1 {
     color: #00001A;
     font-weight: 800;
-    font-size: 56px;
-    line-height: 56px;
-    margin: 30px 0px;
+    font-size: 3.5em;
+    line-height: 1em;
+    margin: 0.5357142857142857em 0em;
 }
 
 .main_section p {
-    width: 350px;
-    height: 104px;
-    margin: 30px 30px 25px 30px;
+    width: 23.33333333333333em; /*350/15*/
+    height: 6.933333333333333em; /*104/15*/
+    margin: 2em 2em 1.666666666666667em 2em;
     color: #5E607A;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 0.9375em; /*15/16*/
+    line-height: 1.733333333333333em; /*26/15*/
 }
+
 
 /*----BUTTON----*/
 
 button {
     background: #F15D51;
-    width: 185px;
-    height: 48px;
+    width: 13.21428571428571em; /* tusa delilo 14stkou ktora bola na font-size*/
+    height: 3.428571428571429em;
     color: #FFFDFA;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 4.38px;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    letter-spacing: 0.27375em;
     border: none;
     cursor: pointer;
-    margin-left: 30px;
+    margin-left: 2.142857142857143em;
     text-transform: uppercase;
 }
 
@@ -98,8 +99,8 @@ button:active {
 .aside {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
-    max-height: 511px;
+    max-width: 21.875em; /*350/16*/
+    height: 31.9375em; /*511/16*/
     background: #00001A;
 }
 
@@ -112,16 +113,16 @@ button:active {
 .aside h1 {
     color: #E9AA52;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
-    margin: 32px 24px 0px 24px;
+    font-size: 2.5em; /*40/16*/
+    line-height: 1em; /*40/40*/
+    margin: 0.8em 0.6em 0em 0.6em; /*tu sa delilo 40*/
 }
 
 .aside a {
     color: #FFFDFA;
     font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25em;
+    line-height: 1.2em;
 }
 
 .aside a:hover,
@@ -132,27 +133,27 @@ button:active {
 .aside p {
     color: #C5C6CE;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    margin-top: 8px;
+    font-size: 0.9375em;
+    line-height: 1.733333333333333em;
+    margin-top: 0.5333333333333333em;
 }
 
 hr {
     color: #5E607A;
-    width: 302px;
-    margin: 0px 24px;
+    width: 18.875em;
+    margin: 0em 1.5em;
 }
 
 .aside_one {
-    margin: 34px 24px 29px 24px;
+    margin: 2.125em 1.5em 1.8125em 1.5em; /* 34/16 24/16 29/16 24/16 */
 }
 
 .aside_two {
-    margin: 31px 24px 29px 24px;
+    margin: 1.9375em 1.5em 1.8125em 1.5em; /* 31 24 29 24 / 16 */
 }
 
 .aside_three {
-    margin: 31px 24px 31px 24px;
+    margin: 1.9375em 1.5em 1.9375em 1.5em; /* 31 24 31 24 / 16 */
 }
 
 
@@ -160,12 +161,12 @@ hr {
 
 footer {
     display: flex;
-    margin: 52px 0px;
+    margin: 3.25em 0em;
 }
 
 footer img {
-    width: 100px;
-    height: 127px;
+    width: 6.25em; /* 100/16 */
+    height: 7.9375em;
 }
 
 .footer_one,
@@ -175,30 +176,30 @@ footer img {
 }
 
 footer div {
-    width: 226px;
-    margin-right: 30px;
-    margin-left: 24px;
+    width: 14.125em;
+    margin-right: 1.875em;
+    margin-left: 1.5em;
 }
 
 footer h3,
 footer a,
 footer p {
-    margin: 0;
+    margin: 0em;
 }
 
 footer h3 {
     color: #C5C6CE;
     font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    margin-bottom: 12px;
+    font-size: 2em; /*32/16*/
+    line-height: 1em;
+    margin-bottom: 0.375em;
 }
 
 footer a {
     color:#00001A;
     font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.125em;
+    line-height: 1.333333333333333em;
 }
 
 .footer_link:hover,
@@ -209,7 +210,7 @@ footer a {
 footer p {
     color: #5E607A;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 26px;
-    margin-top: 9px;
+    font-size: 0.9375em; /* 15/16 */
+    line-height: 1.733333333333333em; /* 26/15 */
+    margin-top: 0.6em; /* 9/15 */
 }
