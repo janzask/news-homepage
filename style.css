@@ -64,7 +64,7 @@ main {
 .main_section p {
     width: 23.33333333333333em; /*350/15*/
     height: 6.933333333333333em; /*104/15*/
-    margin: 2em 2em 1.666666666666667em 2em;
+    margin: 2em 2em 0.7333333333333333em 2em;
     color: #5E607A;
     font-weight: 400;
     font-size: 0.9375em; /*15/16*/
@@ -213,4 +213,121 @@ footer p {
     font-size: 0.9375em; /* 15/16 */
     line-height: 1.733333333333333em; /* 26/15 */
     margin-top: 0.6em; /* 9/15 */
+}
+
+
+
+
+/*----MEDIA QUERIES----*/
+
+
+
+
+@media screen and (max-width: 1120px) {
+    body {
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+
+    /*----HEADER----*/
+
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
+    /*----MAIN----*/
+
+    
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main_section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3.25em;
+    }
+
+    .main_section h1 {
+        max-width: 35%;
+    }
+
+    .main_section p {
+        margin: 2em 0em 0.7333333333333333em 2em;
+        max-width: 100%;
+    }
+  
+    .first_section img {
+        width: 100%;
+    }
+
+    /*----FOOTER----*/
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer_one,
+    .footer_two {
+        margin-bottom: 1em;
+    }
+
+}
+
+
+@media screen and (max-width: 890px) {
+
+    .main_section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .main_section h1,
+    .main_section p {
+        min-width: 60%;
+        margin: 0.5em auto;
+        text-align: center;
+    }
+
+
+    button {
+        display: block;
+        margin: auto;
+        margin-top: 1.5em
+    }
+
+    footer div {
+        margin-right: 0;
+        
+    }
+
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 890px) {
+
+    .main_section h1,
+    .main_section p {
+        margin: 0.5em auto;
+        max-width: 70%;
+    }
+
+    button {
+        margin-top: 3em;
+    }
+
+    footer {
+        margin-bottom: 1em;
+    }
+
+    
+
 }
